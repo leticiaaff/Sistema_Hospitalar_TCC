@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="ISO-8859-1">
+  <title>SISTEMA HOSPITALAR</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="styles/login.css">
+
+</head>
+<body>
+<!-- TELA DE LOGIN -->
+    <div class="container" id="login">
+      <div class="row">
+          <!-- LOGOMARCA -->
+        <div class="col-sm-6 col-md-5 hidden-xs hidden-sm">  
+          <div class="p_image"> 
+              <img src="imagens/enfermeira1.png" alt="" class="center-block img-responsive" />
+        </div>
+      </div>
+          
+      <div class="col-md-1 hidden-xs hidden-sm">   
+        <div class="border-login"></div>
+      </div>
+          
+      <div class="col-sm-12 col-xs-12 col-md-4">            
+          <div class="space-top">
+            <img src="imagens/LS.png" alt="" class="center-block img-responsive" height="200" width="200">
+              <!-- PROCESSO DE LOGIN -->  
+              <form class="form-signin" class="form-horizontal" action="autenticacao.jsp" method="post">
+                <!-- USUARIO --> 
+                <label class=""> Usuário </label>                               
+                <input type="text" id="usuario" name="usuario" class="form-control" placeholder="Informe seu Usuário" required autofocus>
+
+                <!-- SENHA --> 
+                <label class=""> Senha </label>
+                <input type="password" id="senha" name="senha" class="form-control" placeholder="Informe sua Senha" required>
+                
+                <!-- BOTÃO PARA ENTRAR NO SISTEMA -->
+                <button class="btn btn-lg btn-primary btn-block" type="submit"> Entrar </button>   
+              </form>
+          </div>
+      </div>
+      </div>
+    </div>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+</body>
+</html>

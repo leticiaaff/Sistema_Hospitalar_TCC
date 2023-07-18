@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">                  
+        <link rel="stylesheet" href="styles/Menu.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <title>LIFE SYSTEM</title> 
+    </head>
+            
+    <style>
+    .main iframe {
+        border: none;
+        position: absolute;
+        margin-top: 12px;
+        width:  100%;
+        height: 85%;
+    }
+    #centro {
+        width:100px;
+        height:100px;
+        
+    }
+    </style>
+    
+    <body>
+        <!-- ESTRUTURA DO MENU -->
+        <!-- CADASTROS -->
+        
+            <div class="topnav" id="myTopnav">                                   
+                <div class="dropdown">
+                    <button class="dropbtn">Médico</button>
+                    <div class="dropdown-content">
+                        <a href="CadastraMedico.jsp" target="janela_prog">Cadastrar</a>
+                        <a href="ConsultaMedico.jsp" target="janela_prog">Consultar</a>
+    <!--                    <a href="cadastralaboratorio.jsp" target="janela_prog">Laboratório</a>
+                        <a href="cadastramanutencao.jsp" target="janela_prog">Manutenção</a>-->
+                    </div>
+                </div> 
+
+                <div class="dropdown">
+                    <button class="dropbtn">Usuário</button>
+                    <div class="dropdown-content">
+                        <a href="CadastraUsuario.jsp" target="janela_prog">Cadastrar</a>
+                        <a href="ConsultaUsuario.jsp" target="janela_prog">Consultar</a>
+    <!--                    <a href="cadastralaboratorio.jsp" target="janela_prog">Laboratório</a>
+                        <a href="cadastramanutencao.jsp" target="janela_prog">Manutenção</a>-->
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropbtn">Paciente</button>
+                    <div class="dropdown-content">
+<!--                        <a href="CadastraPaciente.jsp" target="janela_prog">Cadastrar</a>-->
+                        <a href="ConsultaPaciente.jsp" target="janela_prog">Consultar</a>
+    <!--                    <a href="cadastralaboratorio.jsp" target="janela_prog">Laboratório</a>
+                        <a href="cadastramanutencao.jsp" target="janela_prog">Manutenção</a>-->
+                    </div>
+                </div>
+                
+                <div class="dropdown">
+                    <button class="dropbtn">Anamnese</button>
+                    <div class="dropdown-content">
+                        <a href="ConsultaAnamnese.jsp" target="janela_prog">Consultar</a>
+    <!--                    <a href="consultalaboratorio.jsp" target="janela_prog">Laboratório</a>
+                        <a href="consultamanutencao.jsp" target="janela_prog">Manutenção</a>-->
+
+                    </div>
+                </div>  
+
+                <div class="dropdown">
+                    <button class="dropbtn">Consultas</button>
+                    <div class="dropdown-content">
+<!--                        <a href="CadastraConsulta.jsp" target="janela_prog">Cadastrar</a>-->
+                        <a href="ConsultaConsulta.jsp" target="janela_prog">Consultar</a>
+    <!--                    <a href="consultalaboratorio.jsp" target="janela_prog">Laboratório</a>
+                        <a href="consultamanutencao.jsp" target="janela_prog">Manutenção</a>-->
+
+                    </div>
+                </div>  
+
+                <div class="dropdown">
+                    <button  class="dropbtn">Sair</button>
+                    <div class="dropdown-content">
+                        <a href="index.html">Sair</a>
+
+                    </div><!--
+                </div>  -->
+                <!-- LOGIN E LOGOUT -->
+<!--                <div class="autenticacao">
+                    <a href="login.jsp"  'target="janela_prog"><i class='fas fa-power-off' style='font-size:19px;color:greenyellow'></i>&nbsp; Entrada</a>
+                    <a href="index.html"> <i class='fas fa-power-off' align='right' style='font-size:19px;color:black'>  Sair       </i> </a>-->
+                </div>
+                
+                
+            </div>
+            
+        <!--<div class="col-sm-6 col-md-5 hidden-xs hidden-sm">-->  
+<!--          <div class="p_image" align='center'> 
+              <img src="imagens/enfermeira1.png" alt="" class="center-block img-responsive" />
+        </div>-->
+      <!--</div>-->
+        
+        
+        <!-- IFRAME ONDE ABREM AS TELAS DO SISTEMA -->
+        <div class="main">
+            <iframe name="janela_prog" element.mozRequestFullScreen()></iframe>
+        </div>
+    </body>
+</html>
